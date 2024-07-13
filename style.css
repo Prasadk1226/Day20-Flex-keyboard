@@ -1,0 +1,192 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-size: x-large; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 90vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(1, 242, 255);  
+    padding: 0px 20px;
+    
+}
+
+.linecontainer1{
+    /* border: 2px solid cyan; */
+    border-radius: 15px;
+    width: 100%;
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 7px;
+    justify-content: space-between;  
+}
+.keys1{
+    height: 4vh;
+    width: 8vh;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 167, 167, 0.295);
+    box-shadow: 2px 2px 9px rgb(165, 165, 165);
+
+}
+.linecontainer2{
+    /* border: 2px solid cyan; */
+    border-radius: 15px;
+    width: 90vw;
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 12px;
+    justify-content: space-between;
+}
+.keys2{
+    height: 6vh;
+    width: 5vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 167, 167, 0.295);
+    box-shadow: 2px 2px 9px rgb(165, 165, 165);
+}
+.back{
+    width: 8vw;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+.linecontainer3{
+    /* border: 2px solid cyan; */
+    border-radius: 15px;
+    width: 90vw;
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 12px;
+    justify-content: space-between;
+}
+.keys3{
+    height: 6vh;
+    width: 5vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 167, 167, 0.295);
+    box-shadow: 2px 2px 9px rgb(165, 165, 165);
+}
+.tab{
+    width: 7vw;
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+}
+
+.linecontainer4{
+    /* border: 2px solid cyan; */
+    border-radius: 15px;
+    width: 90vw;
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+
+.keys4{
+    height: 6vh;
+    width: 5vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 167, 167, 0.295);
+    box-shadow: 2px 2px 9px rgb(165, 165, 165);
+}
+
+.caps, .enter{
+    width: 8vw;
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+}
+
+.linecontainer5{
+    /* border: 2px solid cyan; */
+    border-radius: 15px;
+    width: 90vw;
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 12px;
+    justify-content: space-between;
+}
+.keys5{
+    height: 6vh;
+    width: 5vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 167, 167, 0.295);
+    box-shadow: 2px 2px 9px rgb(165, 165, 165);
+}
+.shift{
+    width: 11vw;
+}
+
+
+.linecontainer6{
+    /* border: 2px solid cyan; */
+    border-radius: 15px;
+    width: 90vw;
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+
+
+.keys6{
+    height: 6vh;
+    width: 5vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 167, 167, 0.295);
+    box-shadow: 2px 2px 9px rgb(165, 165, 165);
+}
+.space{
+    width: 30vw;
+}
+.up, .down{
+    height: 3vh;
+    width: 5vw;
+}
+
+.lines div:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 20px aqua;
+}
+
